@@ -3,13 +3,16 @@
 The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
 
 - Truffle(develop)> version
+~~~
     Truffle v5.4.29 (core: 5.4.29)
     Solidity v0.5.16 (solc-js)
     Node v14.20.0
     Web3.js v1.5.3
+~~~
 
 - Zokrates:
-https://andresaaap.medium.com/creating-simple-zero-knowledge-verifier-contract-with-zokrates-0-5-0-solidity-0-5-0-13e9d615fe80
+
+	https://andresaaap.medium.com/creating-simple-zero-knowledge-verifier-contract-with-zokrates-0-5-0-solidity-0-5-0-13e9d615fe80
 
 - UT Test:
 ~~~
@@ -129,11 +132,14 @@ Summary
 ~~~
 
 - Contract Address:
+~~~
   	"SkyERC721Token": "0xB4250AF4B8Af3e217c6dd10ba79A47C0642d7DbD",
 	"Verifier": "0xd3fC542E784FC41bA8b00696aB44d567f90c3212",
 	"SolnSquareVerifier": "0x3b2c349bFC7D1F4A3B990234701DE6479e4C4040"
+~~~
 
 - Mint token:
+
     Follow this video to interact with Contract: https://www.youtube.com/watch?v=8MChn-NJJB0&ab_channel=AndresPinzon
 
 - Opensea collection: 
