@@ -19,8 +19,8 @@ contract("TestSolnSquareVerifier", accounts => {
         let result = false;
 
         try {
-            console.log(...Object.values(zokratesProof.proof))
-            console.log(zokratesProof.inputs)
+            // console.log(...Object.values(zokratesProof.proof))
+            // console.log(zokratesProof.inputs)
             await this.contract.submitSolution(...Object.values(zokratesProof.proof), zokratesProof.inputs, accounts[1], tokenID, { from: accounts[1] });
             result = true;
         } 
