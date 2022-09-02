@@ -16,6 +16,13 @@ The capstone will build upon the knowledge you have gained in the course in orde
 
 - UT Test:
 ~~~
+cd ./eth-contracts
+truffle develop
+test
+~~~
+
+Test result:
+~~~
   Contract: TestERC721Mintable
     match erc721 spec
       √ should return total supply (191ms)
@@ -39,6 +46,10 @@ The capstone will build upon the knowledge you have gained in the course in orde
 ~~~
 
 - Deploy to Rinkeby:
+~~~
+truffle migrate --reset --network rinkeby
+~~~
+
 ~~~
 Starting migrations...
 ======================
@@ -141,6 +152,7 @@ Summary
 - Mint token:
 
     Follow this video to interact with Contract: https://www.youtube.com/watch?v=8MChn-NJJB0&ab_channel=AndresPinzon
+    ABI: SolnSquareVerifier_ABI.json (Other contracts's ABI can refer in folder ./eth-contracts/build/contracts)
 
 - Opensea collection: 
     https://testnets.opensea.io/collection/realestate-marketplace-rk9vutejjr
