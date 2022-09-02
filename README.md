@@ -11,8 +11,21 @@ The capstone will build upon the knowledge you have gained in the course in orde
 ~~~
 
 - Zokrates:
+Open Docker Desktop
+Execute command:
+~~~
+docker pull zokrates/zokrates:0.5.0
 
-	https://andresaaap.medium.com/creating-simple-zero-knowledge-verifier-contract-with-zokrates-0-5-0-solidity-0-5-0-13e9d615fe80
+docker run -v <PATH_TO_FOLDER>:/home/zokrates/code -ti zokrates/zokrates:0.5.0 /bin/bash
+
+cd code/square
+~/zokrates compile -i square.code
+~/zokrates setup
+~/zokrates compute-witness -a 3 9
+~/zokrates generate-proof
+~/zokrates export-verifier
+~~~
+Refer more detail: https://andresaaap.medium.com/creating-simple-zero-knowledge-verifier-contract-with-zokrates-0-5-0-solidity-0-5-0-13e9d615fe80
 
 - UT Test:
 ~~~
